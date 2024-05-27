@@ -1,6 +1,6 @@
 # compression-challenge
 
-I have provided five binary files in a secret format. These files are each several megabytes, summing to ~30MB.
+I have provided seven binary files in a secret format. These files are each several megabytes, summing to ~30MB.
 
 ```bash
 $ du -k files/*

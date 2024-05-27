@@ -61,7 +61,8 @@ $ sum files/*
 
 # Rules
 
- * You must include the size of your compressor + decompressor when computing the compression ratio.
+ * You must achieve at least a 9x compression ratio to win.
+ * You must include the size of your compressor + decompressor when computing the compression ratio. This needn't include the size of a language interpreter, but should include the size of standard libraries or other libraries that you use.
  * You may not store secret information in filenames or other metadata that is not counted in the compressed size.
  * Your compression algorithm must be lossless; the decompressed data must match the original data before compression, byte-for-byte.
  * You may not find your solution by hacking my computer or my online accounts!
